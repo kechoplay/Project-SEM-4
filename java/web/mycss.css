@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#head{
+    margin: 15px 0px 0px 0px;
+}
+.wrapper{
+    margin-top:30px; 
+}
+.contents{
+    width: 1150px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+#products{
+    width: 845px;
+    float: left;
+    margin-left: 30px; 
+    margin-bottom: 30px;
+}
+#aside{
+    width: 272px;
+    float: left;
+}
+.title{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title:after{
+    content: "";
+    display: block;
+    background:url("images/tit-decoration-min.png") left center no-repeat;
+    width: 100%;
+    height: 4px;
+    margin: 20px 0px 30px;
+}
+#list-product{
+    float: left;
+}
+.product{
+    float: left;
+    margin-bottom: 30px;
+}
+.product:nth-child(3n){
+    float: right;
+}
+.product:nth-child(3n-1){
+    margin-left: 30px;
+    margin-right: 29px;
+}
+.image{
+    width: 262px;
+    height: 200px;
+    position: relative;
+    z-index: -1;
+}
+.img-detai{
+    width: 262px;
+    height: 200px;
+}
+.price{
+    color: #fff2ce;
+    text-align: center;
+    width: 100px;
+    background-color: #f63c3c;
+    position: absolute;
+    left: 162px;
+    top: 173px;
+    font-size: 18px;
+}
+#nav h2{
+    background-color: #f63c3c; 
+    color: #fff;
+    padding:17px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+/*h2{
+        color: #ffffff;
+        padding-top: 14px;
+        padding-left: 15px;
+        font-size: 16px;
+}*/
+#nav ul {
+    list-style: none;
+    background-color: #2a2a2a;
+    color: #fff;
+    min-height:150px;
+    padding-left: 0;
+}
+#nav ul li{
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    border-bottom: solid 1px #363636; 
+}
+#nav ul li>a{
+    color: #fff;
+}
+.name{
+    margin: 10px 0;
+    border-bottom: 1px solid;
+}
+.action{
+    width: 125px;
+    color: #636363;
+    text-align: center;
+    background-color: #ededed;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.action:hover{
+    background-color: #f63c3c;
+    color: #fff;
+}
+.button{
+    margin-top: 5px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.form-control{
+    width: 100% !important;
+}
+span{
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+.row{
+    margin: 0 -15px;
+}
+
